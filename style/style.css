@@ -1,0 +1,101 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header .active{
+    background-color: #111;
+}
+
+header nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a{
+    margin: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(93, 93, 93);
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+
+.label{
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    position: relative;
+    height: 22px;
+    width: 47px;
+    transform: scale(1.5);
+}
+
+.label .bola{
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5px;
+    left: 2px;
+    height: 18px;
+    width:18px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .bola{
+    transform: translateX(25px);
+}
+
+.dark-mode{
+    width: 10%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-inicio{
+    color: rgb(0, 0, 0);
+}
+
+.designer-img{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo{
+    margin: 10px;
+}
+
+.fa-moon{
+    color: #fff;
+}
+
+.fa-sun{
+    color: #fff;
+}
