@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --background-color: #fff;
+    --background-label:#111;
+    --text-color: #111;
+    --color: rgb(93, 93, 93);
+    --btn-inicio:#111;
+    --moon-sun:#fff;
+    --img-logo: invert;
+    --transition: 1s;
+    --box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1{
+    color: var(--text-color);
+}
+
+.main-blocos{
+    width: 50%;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.trabalho{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    background-color: var(--background-label);
+}

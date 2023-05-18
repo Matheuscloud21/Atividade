@@ -10,7 +10,7 @@ const lightTheme = {
     '--img-logo': 'invert',
     '--transition': '1s',
     '--box-shadow': 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
-
+    '--text-color': '#111',
 
 }
 
@@ -23,7 +23,7 @@ const darkTheme = {
     '--img-logo': 'invert(1)',
     '--transition': '1s',
     '--box-shadow' : 'rgba(255, 255, 255, 0.8) 0px 50px 100px -20px, rgba(255, 255, 255, 0.4) 0px 20px 60px -30px, rgba(255, 255, 255, 0.4) 0px -2px 6px 0px inset',
-    
+    '--text-color': '#fff',
 
 }
 
